@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    style="@style/Allcap"
+    >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Allcap"
+        android:text="media player b"
+        />
+    <ProgressBar
+        android:id="@+id/progress"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="8dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/before"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/before"
+            />
+        <ImageView
+            android:id="@+id/backward"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/backward"
+            />
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            />
+        <ImageView
+            android:id="@+id/stop"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/unstopd"
+            android:clickable="false"
+            />
+        <ImageView
+            android:id="@+id/forward"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/forward"
+            />
+        <ImageView
+            android:id="@+id/after"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/after"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/current_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            style="@style/Allcap"
+            />
+        <TextView
+            android:id="@+id/final_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            style="@style/Allcap"
+
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/teste"
+        style="@style/Allcap"
+        />
+
+    <TextView
+        android:id="@+id/detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Allcap"
+        android:visibility="invisible"
+        />
+
+</LinearLayout>
